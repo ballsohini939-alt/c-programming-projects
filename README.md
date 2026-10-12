@@ -1,191 +1,213 @@
 <div align="center">
 
-# 💻 CodeAlpha C Programming Internship
+# 💻 C Programming Projects
 
-### Building Practical Solutions with C
+### Building Logic. Solving Problems. Writing Better Code.
 
-**Three projects showcasing programming fundamentals, problem-solving, and software development skills.**
+**A collection of practical C applications built to strengthen programming fundamentals and problem-solving skills.**
 
 <br>
 
-![Language](https://img.shields.io/badge/Language-C-blue?style=for-the-badge\&logo=c\&logoColor=white)
-![Compiler](https://img.shields.io/badge/Compiler-GCC-orange?style=for-the-badge)
-![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey?style=for-the-badge\&logo=windows\&logoColor=white)
-![Status](https://img.shields.io/badge/Projects-3_Completed-2ea44f?style=for-the-badge)
+![Language](https://img.shields.io/badge/Language-C-A8B9CC?style=for-the-badge\&logo=c\&logoColor=white)
+![Compiler](https://img.shields.io/badge/Compiler-GCC-6C8EBF?style=for-the-badge\&logo=gnu\&logoColor=white)
+![Platform](https://img.shields.io/badge/Platform-Windows-0078D4?style=for-the-badge\&logo=windows\&logoColor=white)
+![Projects](https://img.shields.io/badge/Projects-3-8A63D2?style=for-the-badge)
+
+<br>
+
+**[Explore Projects](#-featured-projects) · [Getting Started](#-getting-started) · [About Me](#-about-me)**
 
 </div>
 
 ---
 
-## 👋 About This Repository
+## ✨ About This Collection
 
-Welcome to my **CodeAlpha C Programming Internship** repository!
+Welcome! I'm **Sohini Ball**, a Computer Science and Engineering student passionate about software development and continuous learning.
 
-I'm **Sohini Ball**, a B.Tech Computer Science and Engineering student. This repository contains three C programming projects developed to strengthen my understanding of programming logic, data management, file handling, and input validation.
+This repository brings together three console-based C applications. Each project explores a practical problem while applying programming concepts such as functions, arrays, structures, file handling, and input validation.
 
-Each project addresses a different problem and demonstrates how fundamental programming concepts can be applied to build practical console applications.
+My goal is to turn what I learn into working software—and keep improving with every project.
+
+---
 
 ## 🚀 Featured Projects
 
-### 🧮 01. Matrix Operations
+<table>
+<tr>
+<td width="50%" valign="top">
 
-**Internship Task 2**
+### 🧮 Matrix Operations
 
-A menu-driven C application for performing mathematical operations on matrices.
+A menu-driven application for performing mathematical operations on matrices.
 
-**✨ Features**
+**Key Features**
 
-* ➕ Addition of two matrices
-* ✖️ Multiplication of compatible matrices
-* 🔄 Transpose of a matrix
-* ✅ Validation of matrix dimensions
-* 📋 Interactive, menu-driven interface
+* ➕ Matrix addition
+* ✖️ Matrix multiplication
+* 🔄 Matrix transpose
+* 🛡️ Dimension validation
 
-**🛠️ Concepts Demonstrated**
+**Tech Concepts**
 
-`C Programming` · `2D Arrays` · `Functions` · `Loops` · `Input Validation`
+`C` `2D Arrays` `Functions` `Loops`
 
-**📂 Project Directory:** [`CodeAlpha_MatrixOperations`](./CodeAlpha_MatrixOperations/)
+<br>
 
----
+<a href="https://github.com/ballsohini939-alt/matrix-operations-c">
+<img src="https://img.shields.io/badge/Explore_Project-6C63FF?style=for-the-badge&logo=github&logoColor=white" alt="Explore Matrix Operations">
+</a>
 
-### 🎓 02. Student Management System
+</td>
+<td width="50%" valign="top">
 
-**Internship Task 3**
+### 🎓 Student Management System
 
-A student record-management application that allows users to manage student information through a simple console interface.
+A record-management application for organizing student information through a console interface.
 
-**✨ Features**
+**Key Features**
 
-* ➕ Add new student records
-* 📋 Display student information
-* 🔍 Search for a student
-* ✏️ Update existing records
-* 🗑️ Delete student records
-* 💾 Store records using file handling
+* ➕ Add student records
+* 🔍 Search student information
+* ✏️ Update records
+* 🗑️ Delete records
+* 💾 Persistent file storage
 
-**🛠️ Concepts Demonstrated**
+**Tech Concepts**
 
-`C Programming` · `Structures` · `Arrays` · `Functions` · `File Handling`
+`C` `Structures` `Functions` `File I/O`
 
-**📂 Project Directory:** [`CodeAlpha_StudentManagement`](./CodeAlpha_StudentManagement/)
+<br>
 
----
+<a href="https://github.com/ballsohini939-alt/student-management-system-c">
+<img src="https://img.shields.io/badge/Explore_Project-6C63FF?style=for-the-badge&logo=github&logoColor=white" alt="Explore Student Management System">
+</a>
 
-### 🏦 03. Banking System
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
 
-**Internship Task 4**
+### 🏦 Banking System
 
-A console-based banking application for performing basic account transactions and checking account balances.
+A console-based application that simulates basic banking transactions and account balance management.
 
-**✨ Features**
+**Key Features**
 
 * 💰 Deposit money
 * 💸 Withdraw money
 * 📊 Check account balance
 * 🛡️ Validate transaction amounts
-* ⚖️ Prevent withdrawals exceeding the available balance
+* ⚖️ Prevent withdrawals beyond the available balance
 * 💾 Preserve account information between sessions
 
-**🛠️ Concepts Demonstrated**
+**Tech Concepts**
 
-`C Programming` · `Structures` · `Functions` · `Conditional Logic` · `File Handling`
+`C` `Functions` `Conditional Logic` `File Handling` `Input Validation`
 
-**📂 Project Directory:** [`CodeAlpha_BankingSystem`](./CodeAlpha_BankingSystem/)
+<div align="center">
+<br>
+<a href="https://github.com/ballsohini939-alt/banking-system-c">
+<img src="https://img.shields.io/badge/Explore_Project-6C63FF?style=for-the-badge&logo=github&logoColor=white" alt="Explore Banking System">
+</a>
+</div>
+
+</td>
+</tr>
+</table>
 
 ---
 
 ## 🧰 Technology Stack
 
-| Technology     | Purpose                                    |
-| -------------- | ------------------------------------------ |
-| **C**          | Application development                    |
-| **GCC**        | Compiling C programs                       |
-| **Git**        | Version control                            |
-| **GitHub**     | Source code hosting and project management |
-| **PowerShell** | Compiling and running programs on Windows  |
+| Technology     | How I Use It                                   |
+| :------------- | :--------------------------------------------- |
+| **C**          | Writing program logic and console applications |
+| **GCC**        | Compiling and running C programs               |
+| **Git**        | Tracking changes and managing source code      |
+| **GitHub**     | Hosting projects and documenting development   |
+| **PowerShell** | Running compilation commands on Windows        |
 
 ---
 
-## ▶️ Getting Started
+## ⚙️ Getting Started
 
-Follow these steps to download and run a project on your computer.
+Ready to explore the source code? Follow these steps to run the Matrix Operations project.
 
 ### Prerequisites
 
-* GCC compiler installed and available in your terminal
-* Git installed
+* GCC compiler
+* Git (optional, for cloning)
 * Windows PowerShell or another compatible terminal
 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/ballsohini939-alt/codealpha_tasks.git
+git clone https://github.com/ballsohini939-alt/c-programming-projects.git
 ```
 
-### 2. Navigate to a project
+### 2. Enter the project directory
 
-For example, to run Matrix Operations:
-
-```bash
-cd codealpha_tasks/CodeAlpha_MatrixOperations
+```powershell
+cd c-programming-projects
+cd CodeAlpha_MatrixOperations
 ```
 
 ### 3. Compile the program
 
-```bash
+```powershell
 gcc matrix_operations.c -o matrix_operations.exe
 ```
 
-### 4. Run the program
-
-In PowerShell:
+### 4. Run the application
 
 ```powershell
 .\matrix_operations.exe
 ```
 
-> **Note:** The commands above demonstrate how to run Matrix Operations. For the Student Management System and Banking System, navigate to their respective directories and use the actual C source filenames found in those folders.
+> **Note:** The commands above use the current Matrix Operations folder and filename. After renaming project folders, update the directory command to match the new name. For the other projects, navigate to their respective folders and compile their C source files.
 
 ---
 
-## 📚 Skills & Key Learnings
+## 🧠 Skills I'm Developing
 
-Through these projects, I practised:
-
-* Writing structured and modular C programs
-* Using functions to organize program logic
-* Working with arrays and two-dimensional arrays
-* Applying structures to represent records
-* Implementing file handling for persistent data
-* Designing interactive, menu-driven applications
-* Validating user input and handling invalid operations
-* Using GCC to compile and test C programs
-* Managing repositories with Git and GitHub
-* Testing program behavior under different input conditions
+* Writing structured, modular C programs
+* Breaking problems into smaller functions
+* Working with arrays and structures
+* Performing file operations and saving data
+* Validating input and handling invalid operations
+* Implementing menu-driven console interfaces
+* Compiling, testing, and debugging applications
+* Managing source code with Git and GitHub
 
 ---
 
 ## 👩‍💻 About Me
 
+<div align="center">
+
 ### Sohini Ball
 
-🎓 **B.Tech Computer Science and Engineering Student**
+**B.Tech Computer Science and Engineering Student**
 
-💡 Interested in software development, problem-solving, and building practical applications.
+Interested in software development, problem-solving, and building practical applications.
 
-**Current focus:** Strengthening programming fundamentals and developing hands-on projects.
+I'm continuously strengthening my programming fundamentals and turning new concepts into hands-on projects.
 
-🔗 **Explore my GitHub profile:** [@ballsohini939-alt](https://github.com/ballsohini939-alt)
+<br>
+
+<a href="https://github.com/ballsohini939-alt">
+<img src="https://img.shields.io/badge/GitHub-Visit_My_Profile-181717?style=for-the-badge&logo=github&logoColor=white" alt="Visit my GitHub profile">
+</a>
+
+</div>
 
 ---
 
 <div align="center">
 
-### 🌱 Learn. Build. Test. Improve.
+### 🌱 Learn · Build · Test · Improve
 
-**Thank you for visiting my repository!**
-
-⭐ If you find these projects useful, feel free to explore the source code.
+*Every project is another step forward.*
 
 </div>
