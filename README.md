@@ -1,21 +1,21 @@
 <div align="center">
 
-# 💻 C Programming Projects
+# 💻 C PROGRAMMING PROJECTS
 
 ### Building Logic. Solving Problems. Writing Better Code.
 
-**A collection of practical C applications built to strengthen programming fundamentals and problem-solving skills.**
+A collection of practical C applications demonstrating programming fundamentals, problem-solving, and structured software development.
 
 <br>
 
-![Language](https://img.shields.io/badge/Language-C-A8B9CC?style=for-the-badge\&logo=c\&logoColor=white)
-![Compiler](https://img.shields.io/badge/Compiler-GCC-6C8EBF?style=for-the-badge\&logo=gnu\&logoColor=white)
-![Platform](https://img.shields.io/badge/Platform-Windows-0078D4?style=for-the-badge\&logo=windows\&logoColor=white)
-![Projects](https://img.shields.io/badge/Projects-3-8A63D2?style=for-the-badge)
+![Language](https://img.shields.io/badge/LANGUAGE-C-A8B9CC?style=for-the-badge\&logo=c\&logoColor=white)
+![Compiler](https://img.shields.io/badge/COMPILER-GCC-6C8EBF?style=for-the-badge\&logo=gnu\&logoColor=white)
+![Platform](https://img.shields.io/badge/PLATFORM-WINDOWS-0078D4?style=for-the-badge\&logo=windows\&logoColor=white)
+![Projects](https://img.shields.io/badge/PROJECTS-3-8A63D2?style=for-the-badge)
 
 <br>
 
-**[Explore Projects](#-featured-projects) · [Getting Started](#-getting-started) · [About Me](#-about-me)**
+**[Explore Projects](#-featured-projects) · [Technology Stack](#-technology-stack) · [Getting Started](#-getting-started) · [About Me](#-about-me)**
 
 </div>
 
@@ -23,122 +23,175 @@
 
 ## ✨ About This Collection
 
-Welcome! I'm **Sohini Ball**, a Computer Science and Engineering student passionate about software development and continuous learning.
+Welcome! I'm **Sohini Ball**, a B.Tech Computer Science and Engineering student interested in software development and problem-solving.
 
-This repository brings together three console-based C applications. Each project explores a practical problem while applying programming concepts such as functions, arrays, structures, file handling, and input validation.
+This repository brings together three console-based applications built using C. Each project focuses on a practical problem and applies fundamental programming concepts such as functions, arrays, structures, file handling, and input validation.
 
-My goal is to turn what I learn into working software—and keep improving with every project.
+My approach is simple: **learn a concept, apply it in a project, test the result, and keep improving.**
 
 ---
 
 ## 🚀 Featured Projects
 
-<table>
-<tr>
-<td width="50%" valign="top">
+Three projects. Three practical applications. One growing programming journey.
 
-### 🧮 Matrix Operations
+---
 
-A menu-driven application for performing mathematical operations on matrices.
+### 🧮 01 — Matrix Operations
 
-**Key Features**
+**A mathematical toolkit built in C.**
 
-* ➕ Matrix addition
-* ✖️ Matrix multiplication
-* 🔄 Matrix transpose
-* 🛡️ Dimension validation
+A menu-driven console application for performing common matrix operations with dimension validation.
 
-**Tech Concepts**
+#### ✨ Key Features
 
-`C` `2D Arrays` `Functions` `Loops`
+* ➕ **Matrix Addition** — Add two matrices with compatible dimensions.
+* ✖️ **Matrix Multiplication** — Multiply matrices when their dimensions permit the operation.
+* 🔄 **Matrix Transpose** — Convert rows into columns and columns into rows.
+* 🛡️ **Dimension Validation** — Check matrix dimensions before performing operations.
+* 📋 **Interactive Menu** — Select operations through a console interface.
 
-<br>
+#### 🧠 Concepts Demonstrated
 
-<a href="https://github.com/ballsohini939-alt/matrix-operations-c">
-<img src="https://img.shields.io/badge/Explore_Project-6C63FF?style=for-the-badge&logo=github&logoColor=white" alt="Explore Matrix Operations">
-</a>
+`C Programming` · `2D Arrays` · `Functions` · `Loops` · `Conditional Logic` · `Input Validation`
 
-</td>
-<td width="50%" valign="top">
+#### ▶️ Compile and Run
 
-### 🎓 Student Management System
+```bash
+gcc matrix_operations.c -o matrix_operations
+```
 
-A record-management application for organizing student information through a console interface.
+```bash
+./matrix_operations
+```
 
-**Key Features**
+**Windows PowerShell:**
 
-* ➕ Add student records
-* 🔍 Search student information
-* ✏️ Update records
-* 🗑️ Delete records
-* 💾 Persistent file storage
+```powershell
+.\matrix_operations.exe
+```
 
-**Tech Concepts**
+> Run the commands from the directory containing `matrix_operations.c`. On Windows, compile with `-o matrix_operations.exe` if you want the executable to have that filename.
 
-`C` `Structures` `Functions` `File I/O`
+<div align="left">
 
-<br>
+**[↗ Explore Matrix Operations](https://github.com/ballsohini939-alt/matrix-operations-c)**
 
-<a href="https://github.com/ballsohini939-alt/student-management-system-c">
-<img src="https://img.shields.io/badge/Explore_Project-6C63FF?style=for-the-badge&logo=github&logoColor=white" alt="Explore Student Management System">
-</a>
-
-</td>
-</tr>
-<tr>
-<td colspan="2" valign="top">
-
-### 🏦 Banking System
-
-A console-based application that simulates basic banking transactions and account balance management.
-
-**Key Features**
-
-* 💰 Deposit money
-* 💸 Withdraw money
-* 📊 Check account balance
-* 🛡️ Validate transaction amounts
-* ⚖️ Prevent withdrawals beyond the available balance
-* 💾 Preserve account information between sessions
-
-**Tech Concepts**
-
-`C` `Functions` `Conditional Logic` `File Handling` `Input Validation`
-
-<div align="center">
-<br>
-<a href="https://github.com/ballsohini939-alt/banking-system-c">
-<img src="https://img.shields.io/badge/Explore_Project-6C63FF?style=for-the-badge&logo=github&logoColor=white" alt="Explore Banking System">
-</a>
 </div>
 
-</td>
-</tr>
-</table>
+---
+
+### 🎓 02 — Student Management System
+
+**Student records made simple.**
+
+A console-based application for managing student information and maintaining records between program sessions.
+
+#### ✨ Key Features
+
+* ➕ **Add Records** — Create student records.
+* 📋 **Display Records** — View stored student information.
+* 🔍 **Search Records** — Find a student.
+* ✏️ **Update Records** — Modify existing student information.
+* 🗑️ **Delete Records** — Remove a student record.
+* 💾 **Persistent Storage** — Save information using file handling.
+
+#### 🧠 Concepts Demonstrated
+
+`C Programming` · `Structures` · `Arrays` · `Functions` · `File Handling` · `Input Validation`
+
+#### ▶️ Compile and Run
+
+```bash
+gcc student_management.c -o student_management
+```
+
+```bash
+./student_management
+```
+
+**Windows PowerShell:**
+
+```powershell
+.\student_management.exe
+```
+
+> Run these commands from the directory containing `student_management.c`. The executable name depends on the name used during compilation.
+
+<div align="left">
+
+**[↗ Explore Student Management System](https://github.com/ballsohini939-alt/student-management-system-c)**
+
+</div>
+
+---
+
+### 🏦 03 — Banking System
+
+**Basic banking operations with validation.**
+
+A console-based application that simulates essential banking transactions and manages account information.
+
+#### ✨ Key Features
+
+* 💰 **Deposit** — Add money to the account.
+* 💸 **Withdraw** — Withdraw available funds.
+* 📊 **Balance Enquiry** — Check the current account balance.
+* 🛡️ **Transaction Validation** — Reject invalid transaction amounts.
+* ⚖️ **Balance Protection** — Prevent withdrawals exceeding the available balance.
+* 💾 **Persistent Storage** — Preserve account information between sessions.
+
+#### 🧠 Concepts Demonstrated
+
+`C Programming` · `Functions` · `Conditional Logic` · `File Handling` · `Input Validation`
+
+#### ▶️ Compile and Run
+
+```bash
+gcc banking_system.c -o banking_system
+```
+
+```bash
+./banking_system
+```
+
+**Windows PowerShell:**
+
+```powershell
+.\banking_system.exe
+```
+
+> Run these commands from the directory containing `banking_system.c`. Compile the program with `-o banking_system.exe` if you want to use the executable name shown above.
+
+<div align="left">
+
+**[↗ Explore Banking System](https://github.com/ballsohini939-alt/banking-system-c)**
+
+</div>
 
 ---
 
 ## 🧰 Technology Stack
 
-| Technology     | How I Use It                                   |
-| :------------- | :--------------------------------------------- |
-| **C**          | Writing program logic and console applications |
-| **GCC**        | Compiling and running C programs               |
-| **Git**        | Tracking changes and managing source code      |
-| **GitHub**     | Hosting projects and documenting development   |
-| **PowerShell** | Running compilation commands on Windows        |
+| Technology     | Purpose                                       |
+| :------------- | :-------------------------------------------- |
+| **C**          | Application development and programming logic |
+| **GCC**        | Compiling C source files                      |
+| **Git**        | Version control and change tracking           |
+| **GitHub**     | Source code hosting and project documentation |
+| **PowerShell** | Compiling and running programs on Windows     |
 
 ---
 
 ## ⚙️ Getting Started
 
-Ready to explore the source code? Follow these steps to run the Matrix Operations project.
+Follow these steps to access the project collection and run an application.
 
 ### Prerequisites
 
-* GCC compiler
-* Git (optional, for cloning)
-* Windows PowerShell or another compatible terminal
+* GCC compiler installed and available in your terminal.
+* Git installed if you want to clone the repository.
+* Windows PowerShell or another compatible terminal.
 
 ### 1. Clone the repository
 
@@ -146,39 +199,50 @@ Ready to explore the source code? Follow these steps to run the Matrix Operation
 git clone https://github.com/ballsohini939-alt/c-programming-projects.git
 ```
 
-### 2. Enter the project directory
+### 2. Open the repository
 
-```powershell
+```bash
 cd c-programming-projects
-cd CodeAlpha_MatrixOperations
 ```
 
-### 3. Compile the program
+### 3. Enter a project directory
 
-```powershell
+After renaming the project folders, use the corresponding directory name.
+
+For example:
+
+```bash
+cd matrix-operations-c
+```
+
+### 4. Compile the source file
+
+```bash
 gcc matrix_operations.c -o matrix_operations.exe
 ```
 
-### 4. Run the application
+### 5. Run the program
 
 ```powershell
 .\matrix_operations.exe
 ```
 
-> **Note:** The commands above use the current Matrix Operations folder and filename. After renaming project folders, update the directory command to match the new name. For the other projects, navigate to their respective folders and compile their C source files.
+**Note:** The commands above assume the combined repository contains a folder named `matrix-operations-c` and that it contains `matrix_operations.c`. Adjust the directory name and source filename to match the actual files in your repository.
 
 ---
 
 ## 🧠 Skills I'm Developing
 
-* Writing structured, modular C programs
-* Breaking problems into smaller functions
-* Working with arrays and structures
-* Performing file operations and saving data
-* Validating input and handling invalid operations
-* Implementing menu-driven console interfaces
-* Compiling, testing, and debugging applications
-* Managing source code with Git and GitHub
+Through these projects, I've practised:
+
+* Writing structured and modular C programs.
+* Breaking problems into smaller functions.
+* Working with arrays and structures.
+* Implementing file operations and persistent storage.
+* Validating input and handling invalid operations.
+* Building interactive, menu-driven applications.
+* Compiling, testing, and debugging programs.
+* Using Git and GitHub to manage source code.
 
 ---
 
@@ -192,7 +256,7 @@ gcc matrix_operations.c -o matrix_operations.exe
 
 Interested in software development, problem-solving, and building practical applications.
 
-I'm continuously strengthening my programming fundamentals and turning new concepts into hands-on projects.
+I'm continuously strengthening my programming fundamentals, exploring new technologies, and turning what I learn into hands-on projects.
 
 <br>
 
@@ -206,8 +270,10 @@ I'm continuously strengthening my programming fundamentals and turning new conce
 
 <div align="center">
 
-### 🌱 Learn · Build · Test · Improve
+### 🌱 LEARN · BUILD · TEST · IMPROVE
 
 *Every project is another step forward.*
+
+**Thanks for visiting my project collection!**
 
 </div>
